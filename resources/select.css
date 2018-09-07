@@ -1,0 +1,23 @@
+#select {
+  margin-top: 7em;
+  margin-left: 4%;
+  margin-right: 1%;
+  display: flex;
+}
+
+#select-buttons {
+  width: 11em;
+  display: flex;
+  flex-direction: column;
+  margin-right: 4%;
+}
+
+#select-champs {
+  flex: 1;
+
+}
+
+#ind-champ{
+  margin-right: .4em;
+  margin-bottom: .3em;
+}
