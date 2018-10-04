@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 /*clears formatting */
 .clear {
@@ -56,62 +55,3 @@
   right: 2em;
   top: 1.8em;
 }
-=======
-
-/*clears formatting */
-.clear {
-  clear: both;
-}
-
-/*Styling for title bar */
-#header {
-  position: relative;
-  background-color: var(--primary);
-  display: flex;
-  justify-content: space-between;
-  margin-left: 10.77em;
-  margin-right: 10.77em;
-  margin-top: 5%;
-  box-shadow: 0 14px 20px -10px rgba(0,0,0,0.25), 0 10px 10px -5px rgba(0,0,0,0.22);
-  z-index: 999;
-}
-
-#tri-left {
-  opacity: .5;
-  position: relative;
-  transform: translateY(79.7px);
-}
-
-#shadow-left {
-  position: relative;
-  transform: translateY(51px) translateX(51px);
-  width: 10px;
-  height: 25px;
-  box-shadow: -.2em -.03em .2em -.07em rgba(0,0,0,.1);
-}
-
-#tri-right {
-  position: relative;
-  opacity: .5;
-  transform: translateY(79.7px);
-}
-
-#shadow-right {
-  position: relative;
-  transform: translateY(80px) translateX(0px);
-  width: 10px;
-  height: 25px;
-  box-shadow: .2em -.03em .2em -.07em rgba(0,0,0,.1);
-}
-
-#title {
-  flex-grow: 1;
-  text-align: center;
-}
-
-#info {
-  position: absolute;
-  right: 2em;
-  top: 1.8em;
-}
->>>>>>> 38de20980962f49245e0172d9bb955574d508aa3
