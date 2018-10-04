@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #build {
   display: flex;
   justify-content: space-between;
@@ -45,3 +46,48 @@
 #activeButton {
   height: 400px;
 }
+=======
+#build {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+#champ {
+  flex: 1;
+  margin-left: 4%;
+}
+
+#specs {
+  flex: 6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: nowrap;
+  margin-left: 4%;
+}
+
+#abilities {
+  flex-wrap: nowrap;
+}
+
+#build_buttons {
+  flex: 3;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: stretch;
+  margin-right: 4%;
+  margin-left: 4%;
+}
+
+#generate {
+  height: 19em;
+  margin-bottom: 1em;
+}
+
+#rift, #abyss {
+  height: 4em;
+}
+>>>>>>> 38de20980962f49245e0172d9bb955574d508aa3
