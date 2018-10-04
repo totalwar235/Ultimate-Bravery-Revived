@@ -34,6 +34,7 @@ if (typeof(Storage) !== "undefined") {
     
   if (!sessionStorage.championList) {
       sessionStorage.championList = request();
+  }
 } else {
     request();
 }
