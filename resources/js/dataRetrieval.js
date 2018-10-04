@@ -1,4 +1,4 @@
-const reqURL = "https://na1.api.riotgames.com/lol/platform/v3/champions?api_key=RGAPI-8d9d1e07-2af7-4504-9ea8-6f74cee122a2&locale=en_US&tags=info&dataById=false";
+const reqURL = "https://na1.api.riotgames.com/lol/platform/v3/champions?api_key=RGAPI-8d9d1e07-2af7-4504-9ea8-6f74cee122a2";
 
 let myHeaders = new Headers();
 myHeaders.append('Origin', "https://totalwar235.github.io/Ultimate-Bravery-Revived/");
