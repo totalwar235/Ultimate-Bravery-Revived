@@ -17,7 +17,7 @@ let request = function(){
   fetch(req)
     .then( (response) => {
       if(response.ok){
-        return response.json();
+        return response;
       } else {
         throw new Error('BAD HTTP REQUEST');
       }
