@@ -24,6 +24,7 @@ let request = function(){
     })
     .then( (jsonData) => {
       console.log(jsonData);
+      return jsonData;
     })
     .catch( (err) => {
       console.log('ERROR:', err.message);
